@@ -1,0 +1,13 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Location_app_2"
+             x:Class="Location_app_2.MainPage">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Get Location2" Clicked="GetLocation_Clicked" />
+            <!-- Other UI elements can be added here -->
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
